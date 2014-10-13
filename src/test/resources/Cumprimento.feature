@@ -1,6 +1,6 @@
 # language: pt
 
-  Funcionalidade: Fazer um cumprimento dependendo do comhecimento sobre a pessoa
+  Funcionalidade: Fazer um cumprimento dependendo do conhecimento sobre a pessoa
     Para que eu fique mais contente
     Como um cara carente
     Eu quero receber o cumprimento personalizado
@@ -11,9 +11,8 @@
     Quando recebo o nome "Cassiano"
     Então digo "Olá, Cassiano"
 
-
-    Cenário: Um cumprimento saudoso
-      Dado que eu conheço o "Cassiano"
-      E que não vejo o "Cassiano" há "12" meses
-      Quando recebo o nome "Cassiano"
-      Então digo "Olá, Cassiano! Mas quanto tempo!"
+  Cenário: Um cumprimento saudoso
+    Dado que eu conheço o "Cassiano"
+    E que não vejo o "Cassiano" há "12" meses
+    Quando recebo o nome "Cassiano"
+    Então digo "Olá, Cassiano! Mas quanto tempo!"

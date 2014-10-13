@@ -1,10 +1,12 @@
+package com.cassiano.cucumber;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(format = {"pretty", "html:target/cucumber", "rerun:target/rerun.txt"} ,
+@CucumberOptions(format = {"pretty"} ,
         features = {"src/test/resources"} )
-public class RunCukes {
+public class RunCukesTest {
 }
 

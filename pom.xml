@@ -8,7 +8,10 @@
     <artifactId>cucumber-example</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -28,7 +31,7 @@
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-pro</artifactId>
-            <version>1.0.16</version>
+            <version>1.0.10</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
